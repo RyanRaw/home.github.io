@@ -102,3 +102,21 @@ btnMobileMenu.addEventListener('click', function () {
 	btnMobileMenu.classList.toggle('animated');
 	btnMobileMenu.classList.toggle('fadeIn');
 });
+
+function showWeChatModal() {
+	const modal = document.getElementById('wechatModal');
+	modal.style.display = 'flex';
+	setTimeout(() => {
+		modal.style.opacity = '1';
+		modal.style.visibility = 'visible';
+	}, 10);
+}
+
+function closeWeChatModal() {
+	const modal = document.getElementById('wechatModal');
+	modal.style.opacity = '0';
+	modal.style.visibility = 'hidden';
+	setTimeout(() => {
+		modal.style.display = 'none';
+	}, 300);
+}

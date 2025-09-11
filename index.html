@@ -62,13 +62,13 @@
                                         <a href="/" class="blog-button">首页</a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://dmego.cn" class="blog-button" target="_blank">博客</a>
+                                        <a href="https://dmego.cn" class="blog-button" target="_blank" onclick="event.preventDefault(); showWeChatModal();">博客</a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://r.dmego.cn" class="blog-button" target="_blank">简历</a>
+                                        <a href="https://r.dmego.cn" class="blog-button" target="_blank" onclick="event.preventDefault();">简历</a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://dmego.cn/about/" class="blog-button" target="_blank">关于</a>
+                                        <a href="https://dmego.cn/about/" class="blog-button" target="_blank" onclick="event.preventDefault();">关于</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -122,6 +122,10 @@
             </p>
         </div>
     </header>
+    <!-- WeChat Modal -->
+    <div id="wechatModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 1000; justify-content: center; align-items: center; flex-direction: column; opacity: 0; visibility: hidden; transition: opacity 0.3s ease;" onclick="closeWeChatModal()">
+        <img src="./assets/img/wechat.jpg" alt="WeChat" style="max-width: 300px; max-height: 300px; border-radius: 10px;" onclick="event.stopPropagation()">
+    </div>
     <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
     <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
 </body>

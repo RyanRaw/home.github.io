@@ -40,12 +40,15 @@ function getBingImages(imgUrls) {
 	
 	var indexName = "bing-image-index";
 	var index = parseInt(sessionStorage.getItem(indexName), 10);
-	if (isNaN(index) || index === 7) index = 0;
+	var maxIndex = imgUrls.length - 1;
+	
+	if (isNaN(index) || index >= maxIndex) index = 0;
 	else index++;
 	
 	var imgUrl = imgUrls[index];
 	// Validate URL format to prevent CSS injection
-	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.startsWith('/')) {
+	// Only allow URLs that match Bing's image path pattern
+	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.match(/^\/th\?id=OHR\.[a-zA-Z0-9_\-]+\.jpg/)) {
 		return;
 	}
 	

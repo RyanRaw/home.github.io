@@ -84,7 +84,7 @@ function handleAnimationEnd() {
 }
 
 btnMobileMenu.addEventListener('click', function () {
-	var isVisible = navigationWrapper.style.display === "block";
+	var isVisible = navigationWrapper.classList.contains('visible');
 	
 	if (isVisible) {
 		navigationWrapper.addEventListener('animationend', handleAnimationEnd);
@@ -96,7 +96,6 @@ btnMobileMenu.addEventListener('click', function () {
 	
 	btnMobileMenu.classList.toggle('icon-list');
 	btnMobileMenu.classList.toggle('icon-angleup');
-	btnMobileMenu.classList.add('animated', 'fadeIn');
 });
 
 function showWeChatModal() {

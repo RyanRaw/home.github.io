@@ -33,12 +33,22 @@ function getBingImages(imgUrls) {
 	 * 先使用 GitHub Action 每天获取 Bing 壁纸 URL 并更新 images.json 文件
 	 * 然后读取 images.json 文件中的数据
 	 */
+	var panel = document.querySelector('#panel');
+	if (!panel || !imgUrls || !Array.isArray(imgUrls) || imgUrls.length === 0) {
+		return;
+	}
+	
 	var indexName = "bing-image-index";
 	var index = parseInt(sessionStorage.getItem(indexName), 10);
-	var panel = document.querySelector('#panel');
 	if (isNaN(index) || index === 7) index = 0;
 	else index++;
+	
 	var imgUrl = imgUrls[index];
+	// Validate URL format to prevent CSS injection
+	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.startsWith('/')) {
+		return;
+	}
+	
 	var url = "https://www.cn.bing.com" + imgUrl;
 	panel.style.background = "url('" + url + "') center center no-repeat #666";
 	panel.style.backgroundSize = "cover";

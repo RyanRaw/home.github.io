@@ -60,8 +60,12 @@ function getBingImages(imgUrls) {
 		return;
 	}
 	
+	// Use backgroundImage property with proper escaping to prevent CSS injection
 	var url = "https://www.cn.bing.com" + imgUrl;
-	panel.style.background = "url('" + url + "') center center no-repeat #666";
+	panel.style.backgroundImage = "url('" + url.replace(/['\\]/g, '\\$&') + "')";
+	panel.style.backgroundPosition = "center center";
+	panel.style.backgroundRepeat = "no-repeat";
+	panel.style.backgroundColor = "#666";
 	panel.style.backgroundSize = "cover";
 	sessionStorage.setItem(indexName, index);
 }

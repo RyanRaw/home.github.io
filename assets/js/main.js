@@ -27,20 +27,45 @@ var iUp = (function () {
 	};
 })();
 
+// Bing image URL pattern: validates format and prevents CSS injection
+var BING_IMAGE_URL_PATTERN = /^\/th\?id=OHR\.[a-zA-Z0-9_\-]+\.jpg(&[a-zA-Z0-9=._\-]+)*$/;
+
 function getBingImages(imgUrls) {
 	/**
 	 * 获取Bing壁纸
 	 * 先使用 GitHub Action 每天获取 Bing 壁纸 URL 并更新 images.json 文件
 	 * 然后读取 images.json 文件中的数据
 	 */
-	var indexName = "bing-image-index";
-	var index = sessionStorage.getItem(indexName);
 	var panel = document.querySelector('#panel');
-	if (isNaN(index) || index == 7) index = 0;
-	else index++;
+	if (!panel || !imgUrls || !Array.isArray(imgUrls) || imgUrls.length === 0) {
+		return;
+	}
+	
+	var indexName = "bing-image-index";
+	var index = parseInt(sessionStorage.getItem(indexName), 10);
+	var maxIndex = imgUrls.length - 1;
+	
+	if (isNaN(index) || index > maxIndex) {
+		index = 0;
+	} else {
+		index++;
+		if (index > maxIndex) {
+			index = 0;
+		}
+	}
+	
 	var imgUrl = imgUrls[index];
+	// Validate URL format to prevent CSS injection
+	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.match(BING_IMAGE_URL_PATTERN)) {
+		return;
+	}
+	
+	// Use backgroundImage property with proper escaping to prevent CSS injection
 	var url = "https://www.cn.bing.com" + imgUrl;
-	panel.style.background = "url('" + url + "') center center no-repeat #666";
+	panel.style.backgroundImage = "url('" + url.replace(/['\\]/g, '\\$&') + "')";
+	panel.style.backgroundPosition = "center center";
+	panel.style.backgroundRepeat = "no-repeat";
+	panel.style.backgroundColor = "#666";
 	panel.style.backgroundSize = "cover";
 	sessionStorage.setItem(indexName, index);
 }
@@ -52,56 +77,70 @@ function decryptEmail(encoded) {
 
 document.addEventListener('DOMContentLoaded', function () {
 	// 获取一言数据
-	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4 && this.status == 200) {
-			var res = JSON.parse(this.responseText);
-			document.getElementById('description').innerHTML = res.hitokoto + "<br/> -「<strong>" + res.from + "</strong>」";
-		}
-	};
-	xhr.open("GET", "https://v1.hitokoto.cn", true);
-	xhr.send();
+	fetch("https://v1.hitokoto.cn")
+		.then(function(response) {
+			return response.json();
+		})
+		.then(function(res) {
+			var descElement = document.getElementById('description');
+			if (descElement && res.hitokoto && res.from) {
+				// Create text nodes to prevent XSS
+				var textNode = document.createTextNode(res.hitokoto);
+				var br = document.createElement('br');
+				var fromText = document.createTextNode(' -「');
+				var strong = document.createElement('strong');
+				strong.textContent = res.from;
+				var endText = document.createTextNode('」');
+				
+				descElement.innerHTML = '';
+				descElement.appendChild(textNode);
+				descElement.appendChild(br);
+				descElement.appendChild(fromText);
+				descElement.appendChild(strong);
+				descElement.appendChild(endText);
+			}
+		})
+		.catch(function(error) {
+			console.error('Error fetching hitokoto:', error);
+		});
 
 	var iUpElements = document.querySelectorAll(".iUp");
-	iUpElements.forEach(function (element) {
-		iUp.up(element);
-	});
+	for (var i = 0; i < iUpElements.length; i++) {
+		iUp.up(iUpElements[i]);
+	}
 
 	var avatarElement = document.querySelector(".js-avatar");
-	avatarElement.addEventListener('load', function () {
-		avatarElement.classList.add("show");
-	});
+	if (avatarElement) {
+		avatarElement.addEventListener('load', function () {
+			avatarElement.classList.add("show");
+		});
+	}
 });
 
 var btnMobileMenu = document.querySelector('.btn-mobile-menu__icon');
 var navigationWrapper = document.querySelector('.navigation-wrapper');
 
-btnMobileMenu.addEventListener('click', function () {
-	if (navigationWrapper.style.display == "block") {
-		navigationWrapper.addEventListener('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-			navigationWrapper.classList.toggle('visible');
-			navigationWrapper.classList.toggle('animated');
-			navigationWrapper.classList.toggle('bounceOutUp');
-			navigationWrapper.removeEventListener('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', arguments.callee);
-		});
-		navigationWrapper.classList.toggle('animated');
-		navigationWrapper.classList.toggle('bounceInDown');
-		navigationWrapper.classList.toggle('animated');
-		navigationWrapper.classList.toggle('bounceOutUp');
-	} else {
-		navigationWrapper.classList.toggle('visible');
-		navigationWrapper.classList.toggle('animated');
-		navigationWrapper.classList.toggle('bounceInDown');
-	}
-	btnMobileMenu.classList.toggle('social');
-	btnMobileMenu.classList.toggle('iconfont');
-	btnMobileMenu.classList.toggle('icon-list');
-	btnMobileMenu.classList.toggle('social');
-	btnMobileMenu.classList.toggle('iconfont');
-	btnMobileMenu.classList.toggle('icon-angleup');
-	btnMobileMenu.classList.toggle('animated');
-	btnMobileMenu.classList.toggle('fadeIn');
-});
+if (btnMobileMenu && navigationWrapper) {
+	btnMobileMenu.addEventListener('click', function () {
+		var isVisible = navigationWrapper.classList.contains('visible');
+		
+		function handleAnimationEnd() {
+			navigationWrapper.classList.remove('visible', 'animated', 'bounceOutUp');
+			navigationWrapper.removeEventListener('animationend', handleAnimationEnd);
+		}
+		
+		if (isVisible) {
+			navigationWrapper.addEventListener('animationend', handleAnimationEnd);
+			navigationWrapper.classList.remove('bounceInDown');
+			navigationWrapper.classList.add('animated', 'bounceOutUp');
+		} else {
+			navigationWrapper.classList.add('visible', 'animated', 'bounceInDown');
+		}
+		
+		btnMobileMenu.classList.toggle('icon-list');
+		btnMobileMenu.classList.toggle('icon-angleup');
+	});
+}
 
 function showWeChatModal() {
 	const modal = document.getElementById('wechatModal');

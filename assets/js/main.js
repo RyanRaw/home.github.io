@@ -34,7 +34,7 @@ function getBingImages(imgUrls) {
 	 * 然后读取 images.json 文件中的数据
 	 */
 	var indexName = "bing-image-index";
-	var index = parseInt(sessionStorage.getItem(indexName));
+	var index = parseInt(sessionStorage.getItem(indexName), 10);
 	var panel = document.querySelector('#panel');
 	if (isNaN(index) || index === 7) index = 0;
 	else index++;
@@ -77,13 +77,13 @@ document.addEventListener('DOMContentLoaded', function () {
 var btnMobileMenu = document.querySelector('.btn-mobile-menu__icon');
 var navigationWrapper = document.querySelector('.navigation-wrapper');
 
-function handleAnimationEnd() {
-	navigationWrapper.classList.remove('visible', 'animated', 'bounceOutUp');
-	navigationWrapper.removeEventListener('animationend', handleAnimationEnd);
-}
-
 btnMobileMenu.addEventListener('click', function () {
 	var isVisible = navigationWrapper.classList.contains('visible');
+	
+	function handleAnimationEnd() {
+		navigationWrapper.classList.remove('visible', 'animated', 'bounceOutUp');
+		navigationWrapper.removeEventListener('animationend', handleAnimationEnd);
+	}
 	
 	if (isVisible) {
 		navigationWrapper.addEventListener('animationend', handleAnimationEnd);

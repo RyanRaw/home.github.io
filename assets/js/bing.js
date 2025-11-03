@@ -9,11 +9,12 @@ const options = {
 }
 
 const req = https.request(options, bing_res => {
-  let bing_data = '';
+  const chunks = [];
   bing_res.on('data', (chunk) => {
-    bing_data += chunk.toString();
+    chunks.push(chunk);
   });
   bing_res.on('end', () => {
+    const bing_data = chunks.join('');
     const data = JSON.parse(bing_data);
     const img_url = data.images.map(img => img.url);
     const jsonpStr = "getBingImages(" + JSON.stringify(img_url) + ")";

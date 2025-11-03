@@ -11,7 +11,7 @@ const options = {
 const req = https.request(options, bing_res => {
   let bing_data = '';
   bing_res.on('data', (chunk) => {
-    bing_data += chunk;
+    bing_data += chunk.toString();
   });
   bing_res.on('end', () => {
     const data = JSON.parse(bing_data);

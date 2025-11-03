@@ -9,19 +9,14 @@ const options = {
 }
 
 const req = https.request(options, bing_res => {
-  let bing_body = [], bing_data = {};
+  let bing_data = '';
   bing_res.on('data', (chunk) => {
-    bing_body.push(chunk);
+    bing_data += chunk;
   });
   bing_res.on('end', () => {
-    bing_body = Buffer.concat(bing_body);
-    bing_data = JSON.parse(bing_body.toString());
-    let img_array = bing_data.images;
-    let img_url = [];
-    img_array.forEach(img => {
-      img_url.push(img.url);
-    });
-    var jsonpStr = "getBingImages(" + JSON.stringify(img_url) + ")";
+    const data = JSON.parse(bing_data);
+    const img_url = data.images.map(img => img.url);
+    const jsonpStr = "getBingImages(" + JSON.stringify(img_url) + ")";
     fs.writeFile('./assets/json/images.json', jsonpStr, (err) => {
       if (err) {
         throw err;

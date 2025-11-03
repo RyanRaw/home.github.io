@@ -27,6 +27,9 @@ var iUp = (function () {
 	};
 })();
 
+// Bing image URL pattern: validates format and prevents CSS injection
+var BING_IMAGE_URL_PATTERN = /^\/th\?id=OHR\.[a-zA-Z0-9_\-]+\.jpg(&[a-zA-Z0-9=._\-]+)*$/;
+
 function getBingImages(imgUrls) {
 	/**
 	 * 获取Bing壁纸
@@ -42,16 +45,18 @@ function getBingImages(imgUrls) {
 	var index = parseInt(sessionStorage.getItem(indexName), 10);
 	var maxIndex = imgUrls.length - 1;
 	
-	if (isNaN(index) || index > maxIndex) index = 0;
-	else index++;
-	
-	// Wrap around if we've gone past the end
-	if (index > maxIndex) index = 0;
+	if (isNaN(index) || index > maxIndex) {
+		index = 0;
+	} else {
+		index++;
+		if (index > maxIndex) {
+			index = 0;
+		}
+	}
 	
 	var imgUrl = imgUrls[index];
 	// Validate URL format to prevent CSS injection
-	// Only allow URLs that match Bing's image path pattern with query parameters
-	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.match(/^\/th\?id=OHR\.[a-zA-Z0-9_\-]+\.jpg(&[a-zA-Z0-9=._\-]+)*$/)) {
+	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.match(BING_IMAGE_URL_PATTERN)) {
 		return;
 	}
 	

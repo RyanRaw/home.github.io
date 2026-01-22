@@ -35,14 +35,26 @@
 
 ### GitHub Action 补充说明
 
-- 利用 `Github Action` 提交代码需要一个 `GitHub API` 令牌, 可以在 [Create Tokens](https://github.com/settings/tokens) 这个地址，点击 `Generate new token` 按钮来创建
+- 利用 `Github Action` 提交代码需要一个 `GitHub API` 令牌，可在 [Create Tokens](https://github.com/settings/tokens) 创建
   - `Expiration` 过期时间设置为 `No expiration`
-  - `Select scopes` 勾选 `repo`
+  - `Select scopes` 勾选 `repo`，并额外勾选 `models`（用于 GitHub Models 调用）
   - 点击 `Generate Token` 生成
 - 在仓库的 `Settings` ——>`Secrets` 功能栏中，点击 `New repository secrets` 按钮
-  -  在 `Name` 框中填写 `GH_TOKEN`
+  - 在 `Name` 框中填写 `GH_TOKEN`
   - 在 `Secrets` 栏中填写第一步生成的 `Token` 值
-- 详细配置步骤图可以参考《[GitHub Action 配置详细步骤](./ActionNotes.md)》文档
+- 详细配置步骤图可参考《[GitHub Action 配置详细步骤](./ActionNotes.md)》
+
+### 环境变量
+
+- `WAKATIME_TOKEN`: WakaTime API Key, [地址](https://wakatime.com/settings/account)
+- `GH_TOKEN`: GitHub Models 与 Actions 使用的令牌
+- `MODEL_NAME`: GitHub Models 模型名称，默认 `openai/gpt-4.1`
+
+### GitHub Models
+
+- 使用 GitHub Models 生成周报点评
+- 端点为 `https://models.github.ai/inference/chat/completions`
+- 工作流需配置 `models: read` 权限
 
 ### 更新记录
 - 2022-06-10
@@ -55,6 +67,8 @@
   - 将壁纸地址换成 cn.bing.com
 - 2025-09-11
   - 添加公众号二维码、压缩图片
+- 2026-01-22
+  - 调整 GitHub Models 接入与默认模型
 
 ### Star History
 

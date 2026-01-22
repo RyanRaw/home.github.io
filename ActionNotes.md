@@ -6,7 +6,7 @@
 
 <img src="https://unpkg.com/dmego-home-page@latest/assets/img/action/action-1.png" alt="image-20230227085916038" style="zoom:33%;" />
 
-- `Note` 填写 要生成的 `Token` 的备注值；`Expiration` 过期时间选择最后一项 `No expiration`  永不过期；`Select scopes` 勾选 `repo`，将 `Token` 的授权范围设置为仓库；点击最后的 `Generate Token` 按钮生成。
+- `Note` 填写要生成的 `Token` 备注值；`Expiration` 过期时间选择最后一项 `No expiration` 永不过期；`Select scopes` 勾选 `repo`，并额外勾选 `models`（用于 GitHub Models 调用）；点击最后的 `Generate Token` 按钮生成。
 
 <img src="https://unpkg.com/dmego-home-page@latest/assets/img/action/action-2.png" alt="image-20230227090752728" style="zoom:33%;" />
 

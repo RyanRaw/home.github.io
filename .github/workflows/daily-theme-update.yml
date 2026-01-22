@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   update-theme:
@@ -43,7 +44,7 @@ jobs:
           MANUAL_HOURS: ${{ github.event.inputs.hours }}
           MANUAL_THEME: ${{ github.event.inputs.theme }}
           TZ: 'Asia/Shanghai'
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           node .github/scripts/update-wakatime.js
 
@@ -52,5 +53,4 @@ jobs:
         with:
           add: 'assets/json/config.js assets/json/weekly.js'
           message: "Update daily theme & weekly stats: ${{ steps.update.outputs.theme_name }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}

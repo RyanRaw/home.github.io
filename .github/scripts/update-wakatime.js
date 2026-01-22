@@ -4,9 +4,10 @@ const path = require('path');
 
 const WAKATIME_TOKEN = process.env.WAKATIME_TOKEN;
 const TIME_ZONE = process.env.TZ || 'Asia/Shanghai';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const MODEL_ENDPOINT = 'https://models.inference.ai.azure.com/chat/completions';
-const MODEL_NAME = process.env.MODEL_NAME || 'openai/gpt-5';
+const GH_TOKEN = process.env.GH_TOKEN;
+const MODEL_ENDPOINT = 'https://models.github.ai/inference/chat/completions';
+const MODEL_NAME = process.env.MODEL_NAME || 'openai/gpt-4.1';
+const MODEL_DEBUG = process.env.MODEL_DEBUG === '1';
 const MANUAL_HOURS = process.env.MANUAL_HOURS;
 const MANUAL_THEME = process.env.MANUAL_THEME;
 const WAKATIME_RAW_JSON = process.env.WAKATIME_RAW_JSON;
@@ -75,11 +76,21 @@ async function fetchWeeklyRaw(startDate, endDate) {
   if (!WAKATIME_TOKEN) {
     throw new Error('WAKATIME_TOKEN is required.');
   }
-  const url = `https://wakatime.com/api/v1/summaries?start=${startDate}&end=${endDate}`;
+  const url = `https://wakatime.com/api/v1/users/current/summaries?start=${startDate}&end=${endDate}`;
+  const token = String(WAKATIME_TOKEN).trim();
+  let authHeader = '';
+  if (/^bearer\s+/i.test(token)) {
+    authHeader = token;
+  } else if (/^waka_/i.test(token)) {
+    const basic = Buffer.from(`${token}:`, 'utf8').toString('base64');
+    authHeader = `Basic ${basic}`;
+  } else {
+    authHeader = `Bearer ${token}`;
+  }
   return httpRequestJson(
     url,
     'GET',
-    { Authorization: `Bearer ${WAKATIME_TOKEN}` },
+    { Authorization: authHeader },
     null
   );
 }
@@ -137,6 +148,9 @@ function normalizeAiResult(candidate, fallback) {
 }
 
 async function callModel(prompt, modelName) {
+  if (MODEL_DEBUG) {
+    console.log(`Calling GitHub Models: ${modelName}`);
+  }
   const requestBody = JSON.stringify({
     messages: [
       { role: 'system', content: 'You are a helpful assistant that speaks JSON.' },
@@ -150,11 +164,16 @@ async function callModel(prompt, modelName) {
     MODEL_ENDPOINT,
     'POST',
     {
+      Accept: 'application/vnd.github+json',
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${GITHUB_TOKEN}`
+      'X-GitHub-Api-Version': '2022-11-28',
+      Authorization: `Bearer ${GH_TOKEN}`
     },
     requestBody
   );
+  if (MODEL_DEBUG && response && response.error) {
+    console.log(`Model error: ${JSON.stringify(response.error)}`);
+  }
   return response;
 }
 
@@ -210,7 +229,10 @@ async function generateAi(days, stats) {
   const fallbackData = FALLBACK_SCENARIOS.find((s) => stats.avgHours < s.max).data;
   let aiResult = { ...fallbackData };
 
-  if (!GITHUB_TOKEN) {
+  if (!GH_TOKEN) {
+    if (MODEL_DEBUG) {
+      console.log('GH_TOKEN is not set. Skipping model call.');
+    }
     return normalizeAiResult(aiResult, fallbackData);
   }
 
@@ -245,7 +267,10 @@ async function generateAi(days, stats) {
     } catch (_) {
       aiResult = normalizeAiResult(null, fallbackData);
     }
-  } catch (_) {
+  } catch (err) {
+    if (MODEL_DEBUG) {
+      console.log(`Model call failed: ${err && err.message ? err.message : String(err)}`);
+    }
     aiResult = normalizeAiResult(null, fallbackData);
   }
 

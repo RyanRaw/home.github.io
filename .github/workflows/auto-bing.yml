@@ -33,5 +33,4 @@ jobs:
         with:
           add: 'assets/json/images.js'
           message: "Update Bing images"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}

@@ -1,56 +1,56 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-22T02:06:17.881Z",
+  "updated_at": "2026-01-22T03:32:09.857Z",
   "stats": {
-    "total_hours": 21.5,
-    "daily_avg": 3.07,
+    "total_hours": 11.46,
+    "daily_avg": 1.64,
     "trend": "rising",
     "max_day": {
-      "date": "2026-01-21",
-      "hours": 6.5,
-      "text": "6 hrs 30 mins"
+      "date": "2026-01-19",
+      "hours": 5.1,
+      "text": "5 hrs 6 mins"
     }
   },
   "days": [
     {
       "date": "2026-01-16",
-      "hours": 1,
-      "text": "1 hr"
+      "hours": 2.88,
+      "text": "2 hrs 53 mins"
     },
     {
       "date": "2026-01-17",
-      "hours": 2,
-      "text": "2 hrs"
+      "hours": 0,
+      "text": "0 secs"
     },
     {
       "date": "2026-01-18",
-      "hours": 5,
-      "text": "5 hrs"
+      "hours": 0,
+      "text": "0 secs"
     },
     {
       "date": "2026-01-19",
-      "hours": 4,
-      "text": "4 hrs"
+      "hours": 5.1,
+      "text": "5 hrs 6 mins"
     },
     {
       "date": "2026-01-20",
-      "hours": 3,
-      "text": "3 hrs"
+      "hours": 2.18,
+      "text": "2 hrs 10 mins"
     },
     {
       "date": "2026-01-21",
-      "hours": 6.5,
-      "text": "6 hrs 30 mins"
+      "hours": 0.69,
+      "text": "41 mins"
     },
     {
       "date": "2026-01-22",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 0.61,
+      "text": "36 mins"
     }
   ],
   "ai": {
-    "title": "渐入佳境",
-    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
-    "tarot": "🌱 The Empress (皇后)",
-    "theme_color": "#80ed99"
+    "title": "电流狂飙",
+    "quote": "键盘见血，代码不眠，赛博世界没有假期。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00ffe7"
   }
 };

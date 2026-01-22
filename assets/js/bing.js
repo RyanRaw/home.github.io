@@ -17,12 +17,13 @@ const req = https.request(options, bing_res => {
     const bing_data = Buffer.concat(chunks).toString();
     const data = JSON.parse(bing_data);
     const img_url = data.images.map(img => img.url);
-    const jsonpStr = "getBingImages(" + JSON.stringify(img_url) + ")";
-    fs.writeFile('./assets/json/images.json', jsonpStr, (err) => {
+    const jsStr = "window.BING_IMAGES = " + JSON.stringify(img_url) + ";";
+    fs.mkdirSync('./assets/json', { recursive: true });
+    fs.writeFile('./assets/json/images.js', jsStr, (err) => {
       if (err) {
         throw err;
       }
-      console.log("JSON data is saved: " + jsonpStr);
+      console.log("JSON data is saved: " + jsStr);
     });
   });
 })

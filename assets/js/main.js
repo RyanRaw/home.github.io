@@ -33,8 +33,8 @@ var BING_IMAGE_URL_PATTERN = /^\/th\?id=OHR\.[a-zA-Z0-9_\-]+\.jpg(&[a-zA-Z0-9=._
 function getBingImages(imgUrls) {
 	/**
 	 * 获取Bing壁纸
-	 * 先使用 GitHub Action 每天获取 Bing 壁纸 URL 并更新 images.json 文件
-	 * 然后读取 images.json 文件中的数据
+	 * 先使用 GitHub Action 每天获取 Bing 壁纸 URL 并更新 images.js 文件
+	 * 然后读取 images.js 文件中的数据
 	 */
 	var panel = document.querySelector('#panel');
 	if (!panel || !imgUrls || !Array.isArray(imgUrls) || imgUrls.length === 0) {
@@ -115,6 +115,27 @@ document.addEventListener('DOMContentLoaded', function () {
 			avatarElement.classList.add("show");
 		});
 	}
+	(function () {
+		function loadScriptOnce(url, callback) {
+			var existing = document.querySelector('script[data-bing-images-loader="1"]');
+			if (existing) {
+				callback(null);
+				return;
+			}
+			var script = document.createElement('script');
+			script.setAttribute('data-bing-images-loader', '1');
+			script.src = url + '?t=' + new Date().getTime();
+			script.onload = function () { callback(null); };
+			script.onerror = function () { callback(new Error('Failed to load ' + url)); };
+			document.body.appendChild(script);
+		}
+
+		loadScriptOnce('./assets/json/images.js', function (err) {
+			if (!err && typeof getBingImages === 'function' && window.BING_IMAGES && Array.isArray(window.BING_IMAGES)) {
+				getBingImages(window.BING_IMAGES);
+			}
+		});
+	})();
 });
 
 var btnMobileMenu = document.querySelector('.btn-mobile-menu__icon');

@@ -32,5 +32,5 @@
 
 ## 4. 下一步：个性化配置
 
-- 站点内容与样式调整：见 [docs/customization.md](docs/customization.md)
-- 自动化（Bing/WakaTime/周报）：见 [docs/github-actions.md](docs/github-actions.md)
+- 站点内容与样式调整：见 [docs/customization.md](customization.md)
+- 自动化（Bing/WakaTime/周报）：见 [docs/github-actions.md](github-actions.md)

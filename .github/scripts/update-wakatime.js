@@ -48,6 +48,7 @@ function httpRequestJson(url, method, headers, body) {
       url,
       { method, headers },
       (res) => {
+        res.setEncoding('utf8');
         let raw = '';
         res.on('data', (chunk) => (raw += chunk));
         res.on('end', () => {
@@ -134,15 +135,23 @@ function isHexColor(value) {
 
 function truncateByCodePoints(input, maxLen) {
   if (typeof input !== 'string') return '';
-  const chars = Array.from(input.trim());
+  const trimmed = input.trim();
+  // 移除替代符号和无效字符，只保留有效的 UTF-8 字符
+  const cleaned = trimmed.replace(/[\ufffd]/g, '').trim();
+  const chars = Array.from(cleaned);
   return chars.length > maxLen ? chars.slice(0, maxLen).join('') : chars.join('');
 }
 
 function normalizeAiResult(candidate, fallback) {
   const raw = candidate && typeof candidate === 'object' ? candidate : {};
-  const title = truncateByCodePoints(typeof raw.title === 'string' ? raw.title : fallback.title, 6);
-  const quote = truncateByCodePoints(typeof raw.quote === 'string' ? raw.quote : fallback.quote, 30);
-  const tarot = truncateByCodePoints(typeof raw.tarot === 'string' ? raw.tarot : fallback.tarot, 48);
+  const cleanString = (str) => {
+    if (typeof str !== 'string') return '';
+    // 确保字符串是有效 UTF-8，移除替代符号
+    return str.replace(/[\ufffd]/g, '');
+  };
+  const title = truncateByCodePoints(cleanString(raw.title) || fallback.title, 6);
+  const quote = truncateByCodePoints(cleanString(raw.quote) || fallback.quote, 30);
+  const tarot = truncateByCodePoints(cleanString(raw.tarot) || fallback.tarot, 48);
   const theme_color = isHexColor(raw.theme_color) ? raw.theme_color.trim() : fallback.theme_color;
   return { title, quote, tarot, theme_color };
 }

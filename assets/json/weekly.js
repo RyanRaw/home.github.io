@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-23T07:27:17.153Z",
+  "updated_at": "2026-01-23T07:39:39.773Z",
   "stats": {
-    "total_hours": 11.56,
-    "daily_avg": 1.65,
-    "trend": "falling",
+    "total_hours": 12.12,
+    "daily_avg": 1.73,
+    "trend": "rising",
     "max_day": {
       "date": "2026-01-19",
       "hours": 5.1,
@@ -43,14 +43,14 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-01-23",
-      "hours": 0.98,
-      "text": "59 mins"
+      "hours": 1.54,
+      "text": "1 hr 32 mins"
     }
   ],
   "ai": {
-    "title": "数据降温",
-    "quote": "代码如潮���，有时高潮，有时退却，低谷也是信号。",
-    "tarot": "🕷️ The Hermit",
-    "theme_color": "#00ffe8"
+    "title": "数据觉醒",
+    "quote": "代码在手，生存无忧；黑夜加班，赛博不眠。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00ffe7"
   }
 };

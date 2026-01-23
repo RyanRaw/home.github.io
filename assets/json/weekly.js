@@ -49,7 +49,7 @@ window.WAKATIME_WEEKLY = {
   ],
   "ai": {
     "title": "能量衰减",
-    "quote": "代码河流枯竭，灵感像掉线的WiFi，偶尔满格。",
+    "quote": "代码河流���竭，灵感像掉线的WiFi，偶尔满格。",
     "tarot": "💤 The Hermit",
     "theme_color": "#00ffe7"
   }

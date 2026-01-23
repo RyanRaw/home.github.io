@@ -245,7 +245,7 @@ async function generateAi(days, stats) {
 - 趋势: ${stats.trend}
 - 巅峰日: ${stats.maxDay.date} (${stats.maxDay.hours}小时)
 
-请返回严格的 JSON 格式（不要Markdown代码块），包含以下字段：
+ 请返回严格的 JSON 格式（不要Markdown代码块），文本必须是有效 UTF-8 中文，避免出现乱码或替代符号(�)：
 1. title: 4字短语，概括本周状态（如：代码飞升、系统过载、静默潜行）。
 2. quote: 30字以内的毒舌点评或黑客哲理，幽默且赛博风。
 3. tarot: 塔罗牌名称+Emoji（如：🔥 The Chariot）。
@@ -340,4 +340,3 @@ main().catch((err) => {
   console.error('WakaTime update failed:', err);
   process.exit(1);
 });
-

@@ -26,9 +26,9 @@
 
 ## 效果图
 
-![主页JPG](https://unpkg.com/dmego-home-page@latest/assets/img/home.jpg)
+![主页JPG](https://unpkg.com/dmego-home-page@latest/assets/img/home.jpg?t=20260123)
 
-![主页GIF](https://unpkg.com/dmego-home-page@latest/assets/img/home.gif)
+![主页GIF](https://unpkg.com/dmego-home-page@latest/assets/img/home.gif?t=20260123)
 
 ## 目录
 

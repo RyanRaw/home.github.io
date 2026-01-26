@@ -1,31 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-23T07:39:39.773Z",
+  "updated_at": "2026-01-26T00:53:08.110Z",
   "stats": {
-    "total_hours": 12.12,
-    "daily_avg": 1.73,
-    "trend": "rising",
+    "total_hours": 7.81,
+    "daily_avg": 1.12,
+    "trend": "falling",
     "max_day": {
-      "date": "2026-01-19",
-      "hours": 5.1,
-      "text": "5 hrs 6 mins"
+      "date": "2026-01-22",
+      "hours": 2.61,
+      "text": "2 hrs 36 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-01-17",
-      "hours": 0,
-      "text": "0 secs"
-    },
-    {
-      "date": "2026-01-18",
-      "hours": 0,
-      "text": "0 secs"
-    },
-    {
-      "date": "2026-01-19",
-      "hours": 5.1,
-      "text": "5 hrs 6 mins"
-    },
     {
       "date": "2026-01-20",
       "hours": 2.18,
@@ -43,14 +28,29 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-01-23",
-      "hours": 1.54,
-      "text": "1 hr 32 mins"
+      "hours": 2.25,
+      "text": "2 hrs 14 mins"
+    },
+    {
+      "date": "2026-01-24",
+      "hours": 0,
+      "text": "0 secs"
+    },
+    {
+      "date": "2026-01-25",
+      "hours": 0,
+      "text": "0 secs"
+    },
+    {
+      "date": "2026-01-26",
+      "hours": 0.08,
+      "text": "4 mins"
     }
   ],
   "ai": {
-    "title": "数据觉醒",
-    "quote": "代码在手，生存无忧；黑夜加班，赛博不眠。",
-    "tarot": "⚡ The Magician",
-    "theme_color": "#00ffe7"
+    "title": "能量低潮",
+    "quote": "代码如夜市霓虹，亮一时，熄一周。",
+    "tarot": "🔋 The Hermit",
+    "theme_color": "#00fff7"
   }
 };

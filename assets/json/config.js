@@ -1,7 +1,7 @@
 window.WAKATIME_CONFIG = {
-  "date": "2026-01-22",
-  "hours": 2.61,
-  "theme_name": "relaxed",
-  "theme_display": "轻松日",
-  "updated_at": "2026-01-23T07:39:36.848Z"
+  "date": "2026-01-25",
+  "hours": 0,
+  "theme_name": "rest",
+  "theme_display": "休息日",
+  "updated_at": "2026-01-26T00:53:05.944Z"
 };

@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-26T00:53:34.645Z",
+  "updated_at": "2026-01-26T01:14:07.103Z",
   "stats": {
-    "total_hours": 7.81,
-    "daily_avg": 1.12,
+    "total_hours": 8.15,
+    "daily_avg": 1.16,
     "trend": "falling",
     "max_day": {
       "date": "2026-01-22",
@@ -43,14 +43,14 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-01-26",
-      "hours": 0.08,
-      "text": "4 mins"
+      "hours": 0.42,
+      "text": "25 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码像咖啡冷掉，激情都在上周，数据比夜景还冷清。",
-    "tarot": "🕰️ The Hermit",
-    "theme_color": "#00ffd0"
+    "title": "能量低谷",
+    "quote": "代码是冷酷的审判，懈怠只会被系统遗忘。",
+    "tarot": "🕸️ The Hermit",
+    "theme_color": "#00FFFF"
   }
 };

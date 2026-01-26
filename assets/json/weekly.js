@@ -1,5 +1,5 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-26T00:53:08.110Z",
+  "updated_at": "2026-01-26T00:53:34.645Z",
   "stats": {
     "total_hours": 7.81,
     "daily_avg": 1.12,
@@ -48,9 +48,9 @@ window.WAKATIME_WEEKLY = {
     }
   ],
   "ai": {
-    "title": "能量低潮",
-    "quote": "代码如夜市霓虹，亮一时，熄一周。",
-    "tarot": "🔋 The Hermit",
-    "theme_color": "#00fff7"
+    "title": "能量衰减",
+    "quote": "代码像咖啡冷掉，激情都在上周，数据比夜景还冷清。",
+    "tarot": "🕰️ The Hermit",
+    "theme_color": "#00ffd0"
   }
 };

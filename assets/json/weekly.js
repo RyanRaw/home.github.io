@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-01-29T02:47:06.288Z",
+  "updated_at": "2026-01-30T02:48:13.151Z",
   "stats": {
-    "total_hours": 3.96,
-    "daily_avg": 0.57,
-    "trend": "falling",
+    "total_hours": 4.25,
+    "daily_avg": 0.61,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-01-23",
-      "hours": 2.25,
-      "text": "2 hrs 14 mins"
+      "date": "2026-01-29",
+      "hours": 2.21,
+      "text": "2 hrs 12 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-01-23",
-      "hours": 2.25,
-      "text": "2 hrs 14 mins"
-    },
     {
       "date": "2026-01-24",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-01-29",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 2.21,
+      "text": "2 hrs 12 mins"
+    },
+    {
+      "date": "2026-01-30",
+      "hours": 0.33,
+      "text": "19 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码已冷却，灵感如断网，唯有重启方可归来。",
-    "tarot": "🦾 The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "数据觉醒",
+    "quote": "零碎时光也能编织未来代码，别让灵感短路。",
+    "tarot": "⚡️ The Magician",
+    "theme_color": "#00ffd0"
   }
 };

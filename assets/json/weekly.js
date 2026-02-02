@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-02-01T03:25:27.933Z",
+  "updated_at": "2026-02-02T03:15:32.581Z",
   "stats": {
-    "total_hours": 13.02,
-    "daily_avg": 1.86,
+    "total_hours": 13.19,
+    "daily_avg": 1.88,
     "trend": "rising",
     "max_day": {
       "date": "2026-01-30",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-01-26",
-      "hours": 0.42,
-      "text": "25 mins"
-    },
     {
       "date": "2026-01-27",
       "hours": 0.89,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-02-01",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-02-02",
+      "hours": 0.59,
+      "text": "35 mins"
     }
   ],
   "ai": {
-    "title": "数据暴走",
-    "quote": "代码如潮，热情不灭，但别让键盘烧坏你的未来。",
-    "tarot": "🌌 The Star",
-    "theme_color": "#00F0FF"
+    "title": "数据狂飙",
+    "quote": "代码如潮水，翻涌的是灵魂与咖啡因。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00ffe7"
   }
 };

@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-02-11T03:21:15.080Z",
+  "updated_at": "2026-02-12T03:17:13.159Z",
   "stats": {
-    "total_hours": 25.27,
-    "daily_avg": 3.61,
-    "trend": "falling",
+    "total_hours": 21.15,
+    "daily_avg": 3.02,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-02-05",
-      "hours": 7.62,
-      "text": "7 hrs 36 mins"
+      "date": "2026-02-06",
+      "hours": 7.57,
+      "text": "7 hrs 33 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-02-05",
-      "hours": 7.62,
-      "text": "7 hrs 36 mins"
-    },
     {
       "date": "2026-02-06",
       "hours": 7.57,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-02-11",
-      "hours": 0.86,
-      "text": "51 mins"
+      "hours": 3.1,
+      "text": "3 hrs 5 mins"
+    },
+    {
+      "date": "2026-02-12",
+      "hours": 1.26,
+      "text": "1 hr 15 mins"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "代码不是永动机，休息才是补丁。别让芯片烧穿你的灵魂。",
-    "tarot": "⏳ The Hermit",
-    "theme_color": "#00ffe7"
+    "title": "能量觉醒",
+    "quote": "代码狂飙，熬夜变强，别让Bug成为你的数据主宰。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00fff7"
   }
 };

@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-02-17T02:53:46.933Z",
+  "updated_at": "2026-02-18T03:12:39.606Z",
   "stats": {
-    "total_hours": 13.86,
-    "daily_avg": 1.98,
+    "total_hours": 10.76,
+    "daily_avg": 1.54,
     "trend": "falling",
     "max_day": {
       "date": "2026-02-13",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-02-11",
-      "hours": 3.1,
-      "text": "3 hrs 5 mins"
-    },
     {
       "date": "2026-02-12",
       "hours": 4.36,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-02-17",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-02-18",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
     "title": "能量衰减",
-    "quote": "写代码像掉电池，巅峰一瞬，剩下的只剩低电量警告。",
-    "tarot": "💀 The Tower",
+    "quote": "代码如流，意志如铁，别让时长成为你的主机故障。",
+    "tarot": "💀 Death",
     "theme_color": "#00FFF7"
   }
 };

@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-02-26T02:50:39.794Z",
+  "updated_at": "2026-02-27T02:48:43.688Z",
   "stats": {
-    "total_hours": 20.44,
-    "daily_avg": 2.92,
+    "total_hours": 19.29,
+    "daily_avg": 2.76,
     "trend": "rising",
     "max_day": {
       "date": "2026-02-24",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-02-20",
-      "hours": 2.82,
-      "text": "2 hrs 49 mins"
-    },
     {
       "date": "2026-02-21",
       "hours": 1.76,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-02-26",
-      "hours": 1.63,
-      "text": "1 hr 37 mins"
+      "hours": 1.85,
+      "text": "1 hr 51 mins"
+    },
+    {
+      "date": "2026-02-27",
+      "hours": 1.45,
+      "text": "1 hr 26 mins"
     }
   ],
   "ai": {
-    "title": "能量激增",
-    "quote": "代码在夜色中燃烧，疲惫是赛博朋克的底色。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFF7"
+    "title": "数据觉醒",
+    "quote": "代码如潮，时光不等人。巅峰只在输入之际。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00FFD0"
   }
 };

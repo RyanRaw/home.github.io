@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-03-02T02:50:58.885Z",
+  "updated_at": "2026-03-03T02:54:14.708Z",
   "stats": {
-    "total_hours": 27.79,
-    "daily_avg": 3.97,
+    "total_hours": 25.13,
+    "daily_avg": 3.59,
     "trend": "falling",
     "max_day": {
-      "date": "2026-02-24",
-      "hours": 7.08,
-      "text": "7 hrs 4 mins"
+      "date": "2026-02-25",
+      "hours": 6.84,
+      "text": "6 hrs 50 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-02-24",
-      "hours": 7.08,
-      "text": "7 hrs 4 mins"
-    },
     {
       "date": "2026-02-25",
       "hours": 6.84,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-03-02",
-      "hours": 0.6,
-      "text": "36 mins"
+      "hours": 4.22,
+      "text": "4 hrs 12 mins"
+    },
+    {
+      "date": "2026-03-03",
+      "hours": 0.8,
+      "text": "47 mins"
     }
   ],
   "ai": {
-    "title": "能量消散",
-    "quote": "流量不足，信号渐弱，代码如迷雾，唯有重启才可再燃。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#22d2ff"
+    "title": "能量衰减",
+    "quote": "代码流变稀，赛博浪潮渐息，别让灵感断电。",
+    "tarot": "🔋 The Hermit",
+    "theme_color": "#00FFF7"
   }
 };

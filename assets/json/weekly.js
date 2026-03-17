@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-03-16T03:30:00.467Z",
+  "updated_at": "2026-03-17T02:51:25.913Z",
   "stats": {
-    "total_hours": 26.39,
-    "daily_avg": 3.77,
+    "total_hours": 25.87,
+    "daily_avg": 3.7,
     "trend": "falling",
     "max_day": {
-      "date": "2026-03-10",
-      "hours": 6.01,
-      "text": "6 hrs"
+      "date": "2026-03-11",
+      "hours": 5.94,
+      "text": "5 hrs 56 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-03-10",
-      "hours": 6.01,
-      "text": "6 hrs"
-    },
     {
       "date": "2026-03-11",
       "hours": 5.94,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-03-16",
-      "hours": 0.16,
-      "text": "9 mins"
+      "hours": 3.73,
+      "text": "3 hrs 43 mins"
+    },
+    {
+      "date": "2026-03-17",
+      "hours": 1.92,
+      "text": "1 hr 55 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码如潮，潮落见底，黑客也需充电。",
-    "tarot": "🌑 The Hermit",
-    "theme_color": "#00ffe7"
+    "title": "能量泄露",
+    "quote": "代码像蒸汽，已在赛博隧道里慢慢消散。",
+    "tarot": "🔋 The Hermit",
+    "theme_color": "#00FFE7"
   }
 };

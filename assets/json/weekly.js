@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-03-20T02:50:29.009Z",
+  "updated_at": "2026-03-21T02:44:20.059Z",
   "stats": {
-    "total_hours": 28.69,
-    "daily_avg": 4.1,
+    "total_hours": 38.88,
+    "daily_avg": 5.55,
     "trend": "rising",
     "max_day": {
-      "date": "2026-03-17",
-      "hours": 7.1,
-      "text": "7 hrs 6 mins"
+      "date": "2026-03-20",
+      "hours": 10.58,
+      "text": "10 hrs 34 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-03-14",
-      "hours": 0,
-      "text": "0 secs"
-    },
     {
       "date": "2026-03-15",
       "hours": 4.11,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-03-20",
-      "hours": 1.95,
-      "text": "1 hr 56 mins"
+      "hours": 10.58,
+      "text": "10 hrs 34 mins"
+    },
+    {
+      "date": "2026-03-21",
+      "hours": 1.56,
+      "text": "1 hr 33 mins"
     }
   ],
   "ai": {
-    "title": "数据觉醒",
-    "quote": "代码狂欢，虚拟时光溢出，别让BUG变成你的赛博影子。",
-    "tarot": "⚡ The Magician",
-    "theme_color": "#00f0ff"
+    "title": "信号暴涨",
+    "quote": "代码与咖啡齐飞，bug在深夜悄然复活。",
+    "tarot": "⚡ The Tower",
+    "theme_color": "#00FFD7"
   }
 };

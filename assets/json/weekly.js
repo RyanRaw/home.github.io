@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-03-26T03:22:06.480Z",
+  "updated_at": "2026-03-27T03:25:48.253Z",
   "stats": {
-    "total_hours": 39.61,
-    "daily_avg": 5.66,
+    "total_hours": 30.18,
+    "daily_avg": 4.31,
     "trend": "falling",
     "max_day": {
-      "date": "2026-03-20",
-      "hours": 10.58,
-      "text": "10 hrs 34 mins"
+      "date": "2026-03-22",
+      "hours": 7.44,
+      "text": "7 hrs 26 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-03-20",
-      "hours": 10.58,
-      "text": "10 hrs 34 mins"
-    },
     {
       "date": "2026-03-21",
       "hours": 6.96,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-03-26",
-      "hours": 0.05,
-      "text": "2 mins"
+      "hours": 1.01,
+      "text": "1 hr"
+    },
+    {
+      "date": "2026-03-27",
+      "hours": 0.19,
+      "text": "11 mins"
     }
   ],
   "ai": {
     "title": "能量衰减",
-    "quote": "代码不是消耗品，却被你当燃料烧了个精光。",
-    "tarot": "🕳️ The Hermit",
-    "theme_color": "#00F0FF"
+    "quote": "代码如影，时光如电，降速只是赛博世界的低谷。",
+    "tarot": "🪐 The Hermit",
+    "theme_color": "#00FFF7"
   }
 };

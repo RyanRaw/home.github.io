@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-03-31T03:24:56.060Z",
+  "updated_at": "2026-04-01T03:37:18.031Z",
   "stats": {
-    "total_hours": 15.35,
-    "daily_avg": 2.19,
+    "total_hours": 13.01,
+    "daily_avg": 1.86,
     "trend": "rising",
     "max_day": {
       "date": "2026-03-29",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-03-25",
-      "hours": 3.95,
-      "text": "3 hrs 57 mins"
-    },
     {
       "date": "2026-03-26",
       "hours": 1.01,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-03-31",
-      "hours": 0.6,
-      "text": "36 mins"
+      "hours": 1.88,
+      "text": "1 hr 53 mins"
+    },
+    {
+      "date": "2026-04-01",
+      "hours": 0.33,
+      "text": "19 mins"
     }
   ],
   "ai": {
-    "title": "代码燃烧",
-    "quote": "时长上升，熬夜加班，赛博世界期待你的BUG。",
-    "tarot": "⚡ The Magician",
+    "title": "算法觉醒",
+    "quote": "代码如夜色，越黑越亮。巅峰时刻，别忘备份。",
+    "tarot": "🦾 The Magician",
     "theme_color": "#00FFF7"
   }
 };

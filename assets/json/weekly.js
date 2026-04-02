@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-01T03:37:18.031Z",
+  "updated_at": "2026-04-02T03:21:21.741Z",
   "stats": {
-    "total_hours": 13.01,
-    "daily_avg": 1.86,
+    "total_hours": 18.96,
+    "daily_avg": 2.71,
     "trend": "rising",
     "max_day": {
-      "date": "2026-03-29",
-      "hours": 5,
-      "text": "5 hrs"
+      "date": "2026-04-01",
+      "hours": 6.47,
+      "text": "6 hrs 28 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-03-26",
-      "hours": 1.01,
-      "text": "1 hr"
-    },
     {
       "date": "2026-03-27",
       "hours": 0.3,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-01",
-      "hours": 0.33,
-      "text": "19 mins"
+      "hours": 6.47,
+      "text": "6 hrs 28 mins"
+    },
+    {
+      "date": "2026-04-02",
+      "hours": 0.82,
+      "text": "49 mins"
     }
   ],
   "ai": {
-    "title": "算法觉醒",
-    "quote": "代码如夜色，越黑越亮。巅峰时刻，别忘备份。",
-    "tarot": "🦾 The Magician",
-    "theme_color": "#00FFF7"
+    "title": "能量激增",
+    "quote": "比 Bug 多的，是你的续航力，终端屏幕都在为你发光。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00FFE7"
   }
 };

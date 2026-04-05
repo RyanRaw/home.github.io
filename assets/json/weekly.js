@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-04T02:54:14.933Z",
+  "updated_at": "2026-04-05T03:33:19.417Z",
   "stats": {
-    "total_hours": 23.73,
-    "daily_avg": 3.39,
-    "trend": "rising",
+    "total_hours": 18.73,
+    "daily_avg": 2.68,
+    "trend": "falling",
     "max_day": {
       "date": "2026-04-01",
       "hours": 6.47,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-03-29",
-      "hours": 5,
-      "text": "5 hrs"
-    },
     {
       "date": "2026-03-30",
       "hours": 3.24,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-04-04",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-04-05",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "算法狂潮",
-    "quote": "代码如风，越写越狂，赛博夜色下无惧加班。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFE7"
+    "title": "静默潜行",
+    "quote": "代码热度骤降，像黑夜路灯，只剩微光闪烁。",
+    "tarot": "💀 The Tower",
+    "theme_color": "#00fff7"
   }
 };

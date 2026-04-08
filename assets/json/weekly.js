@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-07T03:25:32.801Z",
+  "updated_at": "2026-04-08T03:27:49.846Z",
   "stats": {
-    "total_hours": 13.61,
-    "daily_avg": 1.94,
+    "total_hours": 8.52,
+    "daily_avg": 1.22,
     "trend": "falling",
     "max_day": {
-      "date": "2026-04-01",
-      "hours": 6.47,
-      "text": "6 hrs 28 mins"
+      "date": "2026-04-02",
+      "hours": 6.12,
+      "text": "6 hrs 7 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-01",
-      "hours": 6.47,
-      "text": "6 hrs 28 mins"
-    },
     {
       "date": "2026-04-02",
       "hours": 6.12,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-04-07",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-04-08",
+      "hours": 1.38,
+      "text": "1 hr 23 mins"
     }
   ],
   "ai": {
-    "title": "能量断流",
-    "quote": "巅峰之后皆是平缓，赛博世界不容懈怠。",
-    "tarot": "🌑 The Hermit",
+    "title": "能量耗散",
+    "quote": "代码如潮水退去，灵感被赛博雾霾吞噬。",
+    "tarot": "🕳️ The Hermit",
     "theme_color": "#00FFF7"
   }
 };

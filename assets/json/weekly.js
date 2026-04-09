@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-08T03:27:49.846Z",
+  "updated_at": "2026-04-09T03:22:57.214Z",
   "stats": {
-    "total_hours": 8.52,
-    "daily_avg": 1.22,
-    "trend": "falling",
+    "total_hours": 7.23,
+    "daily_avg": 1.03,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-04-02",
-      "hours": 6.12,
-      "text": "6 hrs 7 mins"
+      "date": "2026-04-08",
+      "hours": 5.21,
+      "text": "5 hrs 12 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-02",
-      "hours": 6.12,
-      "text": "6 hrs 7 mins"
-    },
     {
       "date": "2026-04-03",
       "hours": 1.02,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-08",
-      "hours": 1.38,
-      "text": "1 hr 23 mins"
+      "hours": 5.21,
+      "text": "5 hrs 12 mins"
+    },
+    {
+      "date": "2026-04-09",
+      "hours": 1,
+      "text": "59 mins"
     }
   ],
   "ai": {
-    "title": "能量耗散",
-    "quote": "代码如潮水退去，灵感被赛博雾霾吞噬。",
-    "tarot": "🕳️ The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "能量爆发",
+    "quote": "代码像脉冲一样涌现，别让人类低电量拖慢升级。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00FFE7"
   }
 };

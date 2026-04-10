@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-09T03:22:57.214Z",
+  "updated_at": "2026-04-10T03:35:51.075Z",
   "stats": {
-    "total_hours": 7.23,
-    "daily_avg": 1.03,
+    "total_hours": 16.96,
+    "daily_avg": 2.42,
     "trend": "rising",
     "max_day": {
-      "date": "2026-04-08",
-      "hours": 5.21,
-      "text": "5 hrs 12 mins"
+      "date": "2026-04-09",
+      "hours": 7.81,
+      "text": "7 hrs 48 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-03",
-      "hours": 1.02,
-      "text": "1 hr 1 min"
-    },
     {
       "date": "2026-04-04",
       "hours": 0,
@@ -38,19 +33,24 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-08",
-      "hours": 5.21,
-      "text": "5 hrs 12 mins"
+      "hours": 6.62,
+      "text": "6 hrs 37 mins"
     },
     {
       "date": "2026-04-09",
-      "hours": 1,
-      "text": "59 mins"
+      "hours": 7.81,
+      "text": "7 hrs 48 mins"
+    },
+    {
+      "date": "2026-04-10",
+      "hours": 2.53,
+      "text": "2 hrs 31 mins"
     }
   ],
   "ai": {
-    "title": "能量爆发",
-    "quote": "代码像脉冲一样涌现，别让人类低电量拖慢升级。",
+    "title": "代码狂潮",
+    "quote": "你在键盘上起舞，BUG瑟瑟发抖。",
     "tarot": "⚡ The Magician",
-    "theme_color": "#00FFE7"
+    "theme_color": "#39FF14"
   }
 };

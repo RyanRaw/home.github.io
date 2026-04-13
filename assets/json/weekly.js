@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-12T03:40:05.114Z",
+  "updated_at": "2026-04-13T03:48:01.084Z",
   "stats": {
-    "total_hours": 32.05,
-    "daily_avg": 4.58,
+    "total_hours": 38.12,
+    "daily_avg": 5.45,
     "trend": "rising",
     "max_day": {
       "date": "2026-04-10",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-04-06",
-      "hours": 0,
-      "text": "0 secs"
-    },
     {
       "date": "2026-04-07",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-12",
-      "hours": 1.82,
-      "text": "1 hr 49 mins"
+      "hours": 5.16,
+      "text": "5 hrs 9 mins"
+    },
+    {
+      "date": "2026-04-13",
+      "hours": 2.73,
+      "text": "2 hrs 43 mins"
     }
   ],
   "ai": {
-    "title": "能量激增",
-    "quote": "代码如潮，灵魂却在系统后台偷偷挂机。",
+    "title": "代码狂潮",
+    "quote": "代码如潮，脑回路加速，别让 Bug 成为你的精神拦截器。",
     "tarot": "⚡ The Magician",
-    "theme_color": "#39FF14"
+    "theme_color": "#00FFF7"
   }
 };

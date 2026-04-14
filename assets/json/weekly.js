@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-13T03:48:01.084Z",
+  "updated_at": "2026-04-14T03:35:40.685Z",
   "stats": {
-    "total_hours": 38.12,
-    "daily_avg": 5.45,
-    "trend": "rising",
+    "total_hours": 44.26,
+    "daily_avg": 6.32,
+    "trend": "falling",
     "max_day": {
       "date": "2026-04-10",
       "hours": 9.96,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-04-07",
-      "hours": 0,
-      "text": "0 secs"
-    },
     {
       "date": "2026-04-08",
       "hours": 6.62,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-13",
-      "hours": 2.73,
-      "text": "2 hrs 43 mins"
+      "hours": 5.99,
+      "text": "5 hrs 59 mins"
+    },
+    {
+      "date": "2026-04-14",
+      "hours": 2.88,
+      "text": "2 hrs 52 mins"
     }
   ],
   "ai": {
-    "title": "代码狂潮",
-    "quote": "代码如潮，脑回路加速，别让 Bug 成为你的精神拦截器。",
-    "tarot": "⚡ The Magician",
-    "theme_color": "#00FFF7"
+    "title": "能量衰减",
+    "quote": "代码如潮，巅峰一瞬，下滑如同断电，赛博生命需重启。",
+    "tarot": "🔋 The Hermit",
+    "theme_color": "#00FFE7"
   }
 };

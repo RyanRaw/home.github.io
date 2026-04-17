@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-16T03:41:09.772Z",
+  "updated_at": "2026-04-17T03:37:49.139Z",
   "stats": {
-    "total_hours": 41.6,
-    "daily_avg": 5.94,
+    "total_hours": 35.47,
+    "daily_avg": 5.07,
     "trend": "falling",
     "max_day": {
-      "date": "2026-04-10",
-      "hours": 9.96,
-      "text": "9 hrs 57 mins"
+      "date": "2026-04-14",
+      "hours": 6.98,
+      "text": "6 hrs 58 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-10",
-      "hours": 9.96,
-      "text": "9 hrs 57 mins"
-    },
     {
       "date": "2026-04-11",
       "hours": 5.84,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-16",
-      "hours": 1.32,
-      "text": "1 hr 19 mins"
+      "hours": 5.01,
+      "text": "5 hrs"
+    },
+    {
+      "date": "2026-04-17",
+      "hours": 0.14,
+      "text": "8 mins"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "代码流失如数据泄露，灵感需重启。",
-    "tarot": "🌙 The Moon",
-    "theme_color": "#00FFF7"
+    "title": "降温重启",
+    "quote": "代码如潮，精神如崩，巅峰已过，剩下都是低电量模式。",
+    "tarot": "⚡ The Hermit",
+    "theme_color": "#14FFEF"
   }
 };

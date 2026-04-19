@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-18T03:25:25.822Z",
+  "updated_at": "2026-04-19T03:45:40.073Z",
   "stats": {
-    "total_hours": 33.29,
-    "daily_avg": 4.76,
+    "total_hours": 30.75,
+    "daily_avg": 4.39,
     "trend": "falling",
     "max_day": {
       "date": "2026-04-14",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-04-12",
-      "hours": 5.16,
-      "text": "5 hrs 9 mins"
-    },
     {
       "date": "2026-04-13",
       "hours": 5.99,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-18",
-      "hours": 2.93,
-      "text": "2 hrs 56 mins"
+      "hours": 3.78,
+      "text": "3 hrs 46 mins"
+    },
+    {
+      "date": "2026-04-19",
+      "hours": 1.77,
+      "text": "1 hr 46 mins"
     }
   ],
   "ai": {
     "title": "能量下滑",
-    "quote": "代码流速减缓，未来或需重启系统，赛博世界不等人。",
+    "quote": "代码不止眼前的Bug，还有下降的曲线。",
     "tarot": "🕳️ The Hermit",
-    "theme_color": "#00ffe7"
+    "theme_color": "#00f6ff"
   }
 };

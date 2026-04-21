@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-20T03:47:05.613Z",
+  "updated_at": "2026-04-21T03:39:13.943Z",
   "stats": {
-    "total_hours": 24.76,
-    "daily_avg": 3.54,
+    "total_hours": 23.5,
+    "daily_avg": 3.36,
     "trend": "falling",
     "max_day": {
-      "date": "2026-04-14",
-      "hours": 6.98,
-      "text": "6 hrs 58 mins"
+      "date": "2026-04-15",
+      "hours": 6.35,
+      "text": "6 hrs 20 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-14",
-      "hours": 6.98,
-      "text": "6 hrs 58 mins"
-    },
     {
       "date": "2026-04-15",
       "hours": 6.35,
@@ -38,19 +33,24 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-19",
-      "hours": 1.77,
-      "text": "1 hr 46 mins"
+      "hours": 2.05,
+      "text": "2 hrs 3 mins"
     },
     {
       "date": "2026-04-20",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 3.9,
+      "text": "3 hrs 54 mins"
+    },
+    {
+      "date": "2026-04-21",
+      "hours": 1.54,
+      "text": "1 hr 32 mins"
     }
   ],
   "ai": {
-    "title": "静默潜行",
-    "quote": "代码热情如夜灯渐暗，赛博世界等待下一次爆发。",
-    "tarot": "🌒 The Hermit",
-    "theme_color": "#00FFD0"
+    "title": "能量消散",
+    "quote": "时间像数据包，丢失在网络深处，代码也随之晕眩。",
+    "tarot": "🌑 The Moon",
+    "theme_color": "#00fff7"
   }
 };

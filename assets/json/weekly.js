@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-22T03:35:54.382Z",
+  "updated_at": "2026-04-23T03:40:05.025Z",
   "stats": {
-    "total_hours": 21.86,
-    "daily_avg": 3.12,
-    "trend": "falling",
+    "total_hours": 24.1,
+    "daily_avg": 3.44,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-04-21",
-      "hours": 5.86,
-      "text": "5 hrs 51 mins"
+      "date": "2026-04-22",
+      "hours": 6.35,
+      "text": "6 hrs 20 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-16",
-      "hours": 5.01,
-      "text": "5 hrs"
-    },
     {
       "date": "2026-04-17",
       "hours": 0.87,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-22",
-      "hours": 0.39,
-      "text": "23 mins"
+      "hours": 6.35,
+      "text": "6 hrs 20 mins"
+    },
+    {
+      "date": "2026-04-23",
+      "hours": 1.29,
+      "text": "1 hr 17 mins"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "代码像旧芯片，性能渐耗，赛博朋克也要定期充电。",
-    "tarot": "🕰️ The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "代码狂潮",
+    "quote": "硬盘都冒烟了，你的灵魂还在编译吗？",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00FFE7"
   }
 };

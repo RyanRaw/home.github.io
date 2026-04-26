@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-25T03:27:12.574Z",
+  "updated_at": "2026-04-26T03:50:36.201Z",
   "stats": {
-    "total_hours": 33.39,
-    "daily_avg": 4.77,
+    "total_hours": 37.62,
+    "daily_avg": 5.37,
     "trend": "rising",
     "max_day": {
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "hours": 7.44,
       "text": "7 hrs 26 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-19",
-      "hours": 2.05,
-      "text": "2 hrs 3 mins"
-    },
     {
       "date": "2026-04-20",
       "hours": 3.9,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-25",
-      "hours": 2.85,
-      "text": "2 hrs 50 mins"
+      "hours": 7.44,
+      "text": "7 hrs 26 mins"
+    },
+    {
+      "date": "2026-04-26",
+      "hours": 1.69,
+      "text": "1 hr 41 mins"
     }
   ],
   "ai": {
-    "title": "能量激增",
-    "quote": "别让代码吞噬你的梦，黑夜里也要编程觉醒。",
+    "title": "逻辑加速",
+    "quote": "写代码如黑夜疾驰，越快越易迷失自我。",
     "tarot": "⚡ The Tower",
-    "theme_color": "#00FFF6"
+    "theme_color": "#00FFE0"
   }
 };

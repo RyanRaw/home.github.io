@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-26T03:50:36.201Z",
+  "updated_at": "2026-04-27T03:54:56.506Z",
   "stats": {
-    "total_hours": 37.62,
-    "daily_avg": 5.37,
-    "trend": "rising",
+    "total_hours": 35.95,
+    "daily_avg": 5.14,
+    "trend": "falling",
     "max_day": {
       "date": "2026-04-25",
       "hours": 7.44,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-04-20",
-      "hours": 3.9,
-      "text": "3 hrs 54 mins"
-    },
     {
       "date": "2026-04-21",
       "hours": 5.86,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-26",
-      "hours": 1.69,
-      "text": "1 hr 41 mins"
+      "hours": 3.87,
+      "text": "3 hrs 52 mins"
+    },
+    {
+      "date": "2026-04-27",
+      "hours": 0.05,
+      "text": "3 mins"
     }
   ],
   "ai": {
-    "title": "逻辑加速",
-    "quote": "写代码如黑夜疾驰，越快越易迷失自我。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFE0"
+    "title": "能量耗散",
+    "quote": "代码如潮，激情如水，降温时刻，赛博心跳慢慢回落。",
+    "tarot": "🌒 The Hermit",
+    "theme_color": "#00fff7"
   }
 };

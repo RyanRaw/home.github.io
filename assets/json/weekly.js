@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-28T03:59:30.542Z",
+  "updated_at": "2026-04-29T03:56:32.414Z",
   "stats": {
-    "total_hours": 40.4,
-    "daily_avg": 5.77,
+    "total_hours": 42.37,
+    "daily_avg": 6.05,
     "trend": "falling",
     "max_day": {
-      "date": "2026-04-25",
-      "hours": 7.44,
-      "text": "7 hrs 26 mins"
+      "date": "2026-04-28",
+      "hours": 8.7,
+      "text": "8 hrs 41 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-04-22",
-      "hours": 6.35,
-      "text": "6 hrs 20 mins"
-    },
     {
       "date": "2026-04-23",
       "hours": 4.94,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-28",
-      "hours": 2.97,
-      "text": "2 hrs 58 mins"
+      "hours": 8.7,
+      "text": "8 hrs 41 mins"
+    },
+    {
+      "date": "2026-04-29",
+      "hours": 2.59,
+      "text": "2 hrs 35 mins"
     }
   ],
   "ai": {
     "title": "能量衰减",
-    "quote": "代码如潮，今周退却，惰性侵袭，唯有重启方能逆转未来。",
-    "tarot": "💤 The Hermit",
-    "theme_color": "#00FFF7"
+    "quote": "代码像咖啡，越喝越少，热情逐渐冷却。",
+    "tarot": "🌙 The Moon",
+    "theme_color": "#00FFE7"
   }
 };

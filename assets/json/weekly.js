@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-04-29T03:56:32.414Z",
+  "updated_at": "2026-04-30T04:00:28.730Z",
   "stats": {
-    "total_hours": 42.37,
-    "daily_avg": 6.05,
-    "trend": "falling",
+    "total_hours": 45.93,
+    "daily_avg": 6.56,
+    "trend": "rising",
     "max_day": {
       "date": "2026-04-28",
       "hours": 8.7,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-04-23",
-      "hours": 4.94,
-      "text": "4 hrs 56 mins"
-    },
     {
       "date": "2026-04-24",
       "hours": 7.44,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-04-29",
-      "hours": 2.59,
-      "text": "2 hrs 35 mins"
+      "hours": 8.61,
+      "text": "8 hrs 36 mins"
+    },
+    {
+      "date": "2026-04-30",
+      "hours": 2.48,
+      "text": "2 hrs 28 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码像咖啡，越喝越少，热情逐渐冷却。",
-    "tarot": "🌙 The Moon",
-    "theme_color": "#00FFE7"
+    "title": "代码跃迁",
+    "quote": "加班如潮水，灵魂已被矩阵吞噬。",
+    "tarot": "⚡️ The Magician",
+    "theme_color": "#00FFEA"
   }
 };

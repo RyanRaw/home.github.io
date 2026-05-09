@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-08T03:48:20.571Z",
+  "updated_at": "2026-05-09T03:50:07.789Z",
   "stats": {
-    "total_hours": 24.27,
-    "daily_avg": 3.47,
+    "total_hours": 25.95,
+    "daily_avg": 3.71,
     "trend": "rising",
     "max_day": {
       "date": "2026-05-07",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-02",
-      "hours": 6.47,
-      "text": "6 hrs 27 mins"
-    },
     {
       "date": "2026-05-03",
       "hours": 0.5,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-08",
-      "hours": 1.72,
-      "text": "1 hr 43 mins"
+      "hours": 8.09,
+      "text": "8 hrs 5 mins"
+    },
+    {
+      "date": "2026-05-09",
+      "hours": 1.78,
+      "text": "1 hr 46 mins"
     }
   ],
   "ai": {
     "title": "代码狂潮",
-    "quote": "比特流淹没理智，连光都被 debug 拖慢。",
+    "quote": "代码像赛博风暴，爆发力强，别让bug溺水。",
     "tarot": "⚡ The Tower",
-    "theme_color": "#00FFD0"
+    "theme_color": "#00FFF7"
   }
 };

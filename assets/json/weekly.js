@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-09T03:50:07.789Z",
+  "updated_at": "2026-05-10T04:08:08.139Z",
   "stats": {
-    "total_hours": 25.95,
-    "daily_avg": 3.71,
+    "total_hours": 30.73,
+    "daily_avg": 4.39,
     "trend": "rising",
     "max_day": {
       "date": "2026-05-07",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-03",
-      "hours": 0.5,
-      "text": "30 mins"
-    },
     {
       "date": "2026-05-04",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-09",
-      "hours": 1.78,
-      "text": "1 hr 46 mins"
+      "hours": 5.93,
+      "text": "5 hrs 55 mins"
+    },
+    {
+      "date": "2026-05-10",
+      "hours": 1.13,
+      "text": "1 hr 7 mins"
     }
   ],
   "ai": {
-    "title": "代码狂潮",
-    "quote": "代码像赛博风暴，爆发力强，别让bug溺水。",
-    "tarot": "⚡ The Tower",
+    "title": "能量激增",
+    "quote": "代码如潮，Bug亦如影随形，唯有咖啡永不背叛。",
+    "tarot": "⚡ The Magician",
     "theme_color": "#00FFF7"
   }
 };

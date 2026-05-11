@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-10T04:08:08.139Z",
+  "updated_at": "2026-05-11T04:18:07.320Z",
   "stats": {
-    "total_hours": 30.73,
-    "daily_avg": 4.39,
-    "trend": "rising",
+    "total_hours": 33.09,
+    "daily_avg": 4.73,
+    "trend": "falling",
     "max_day": {
       "date": "2026-05-07",
       "hours": 9.57,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-04",
-      "hours": 0,
-      "text": "0 secs"
-    },
     {
       "date": "2026-05-05",
       "hours": 0,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-05-10",
       "hours": 1.13,
       "text": "1 hr 7 mins"
+    },
+    {
+      "date": "2026-05-11",
+      "hours": 2.36,
+      "text": "2 hrs 21 mins"
     }
   ],
   "ai": {
-    "title": "能量激增",
-    "quote": "代码如潮，Bug亦如影随形，唯有咖啡永不背叛。",
-    "tarot": "⚡ The Magician",
-    "theme_color": "#00FFF7"
+    "title": "能量衰减",
+    "quote": "代码如潮水，高潮易逝，低谷常在。",
+    "tarot": "🌒 The Hermit",
+    "theme_color": "#00ffe7"
   }
 };

@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-15T04:13:10.025Z",
+  "updated_at": "2026-05-16T03:55:12.550Z",
   "stats": {
-    "total_hours": 31.82,
-    "daily_avg": 4.55,
-    "trend": "falling",
+    "total_hours": 30.27,
+    "daily_avg": 4.32,
+    "trend": "rising",
     "max_day": {
       "date": "2026-05-11",
       "hours": 8.54,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-09",
-      "hours": 5.93,
-      "text": "5 hrs 55 mins"
-    },
     {
       "date": "2026-05-10",
       "hours": 1.13,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-15",
-      "hours": 1.05,
-      "text": "1 hr 3 mins"
+      "hours": 5.43,
+      "text": "5 hrs 26 mins"
+    },
+    {
+      "date": "2026-05-16",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "赛博浪潮退去时，连代码都开始打瞌睡。",
-    "tarot": "🌒 The Hermit",
+    "title": "高能冲刺",
+    "quote": "代码如梦，谁在熬夜，谁在燃烧内存？",
+    "tarot": "⚡ The Tower",
     "theme_color": "#00fff7"
   }
 };

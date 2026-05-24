@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-23T04:03:43.123Z",
+  "updated_at": "2026-05-24T04:24:18.501Z",
   "stats": {
-    "total_hours": 35.58,
-    "daily_avg": 5.08,
+    "total_hours": 37.45,
+    "daily_avg": 5.35,
     "trend": "falling",
     "max_day": {
       "date": "2026-05-19",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-17",
-      "hours": 2.28,
-      "text": "2 hrs 17 mins"
-    },
     {
       "date": "2026-05-18",
       "hours": 7.9,
@@ -38,19 +33,24 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-22",
-      "hours": 7.21,
-      "text": "7 hrs 12 mins"
+      "hours": 7.24,
+      "text": "7 hrs 14 mins"
     },
     {
       "date": "2026-05-23",
-      "hours": 0.2,
-      "text": "12 mins"
+      "hours": 4.32,
+      "text": "4 hrs 19 mins"
+    },
+    {
+      "date": "2026-05-24",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "能量枯竭",
-    "quote": "代码像旧电池，越敲越没电，赛博之夜需充能。",
-    "tarot": "🔋 The Hermit",
-    "theme_color": "#00ffe7"
+    "title": "能量下滑",
+    "quote": "代码不是梦，熬夜也救不了算法的颓势。",
+    "tarot": "🕶️ The Hermit",
+    "theme_color": "#00FFE7"
   }
 };

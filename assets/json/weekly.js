@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-26T04:20:44.433Z",
+  "updated_at": "2026-05-27T04:43:40.362Z",
   "stats": {
-    "total_hours": 30.06,
-    "daily_avg": 4.29,
+    "total_hours": 31.57,
+    "daily_avg": 4.51,
     "trend": "falling",
     "max_day": {
       "date": "2026-05-22",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-20",
-      "hours": 3.62,
-      "text": "3 hrs 37 mins"
-    },
     {
       "date": "2026-05-21",
       "hours": 4.66,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-26",
-      "hours": 0.83,
-      "text": "49 mins"
+      "hours": 5.68,
+      "text": "5 hrs 40 mins"
+    },
+    {
+      "date": "2026-05-27",
+      "hours": 0.28,
+      "text": "17 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码如夜灯，熄灭前总有一抹炫目。",
-    "tarot": "💀 Death",
-    "theme_color": "#00FFF7"
+    "title": "能量断流",
+    "quote": "代码如脉冲，时断时续，降温是赛博人的自我保护。",
+    "tarot": "🪫 The Hermit",
+    "theme_color": "#19FFF7"
   }
 };

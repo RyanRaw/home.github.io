@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-05-29T04:37:19.843Z",
+  "updated_at": "2026-05-30T04:12:43.685Z",
   "stats": {
-    "total_hours": 30.8,
-    "daily_avg": 4.4,
-    "trend": "falling",
+    "total_hours": 36.41,
+    "daily_avg": 5.2,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-05-28",
-      "hours": 7.2,
-      "text": "7 hrs 12 mins"
+      "date": "2026-05-29",
+      "hours": 8.37,
+      "text": "8 hrs 22 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-05-23",
-      "hours": 4.43,
-      "text": "4 hrs 25 mins"
-    },
     {
       "date": "2026-05-24",
       "hours": 4.14,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-05-29",
-      "hours": 1.39,
-      "text": "1 hr 23 mins"
+      "hours": 8.37,
+      "text": "8 hrs 22 mins"
+    },
+    {
+      "date": "2026-05-30",
+      "hours": 3.06,
+      "text": "3 hrs 3 mins"
     }
   ],
   "ai": {
-    "title": "能量递减",
-    "quote": "代码流失如电量，赛博世界不容怠惰。",
-    "tarot": "⚡ The Hermit",
-    "theme_color": "#00FFEF"
+    "title": "代码跃迁",
+    "quote": "每一行都是加班的痕迹，赛博世界不眠。",
+    "tarot": "⚡ The Tower",
+    "theme_color": "#00FFF7"
   }
 };

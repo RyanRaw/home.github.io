@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-05T04:42:04.012Z",
+  "updated_at": "2026-06-06T04:15:00.886Z",
   "stats": {
-    "total_hours": 35.08,
-    "daily_avg": 5.01,
-    "trend": "rising",
+    "total_hours": 33.5,
+    "daily_avg": 4.79,
+    "trend": "falling",
     "max_day": {
       "date": "2026-06-02",
       "hours": 9.5,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-05-30",
-      "hours": 6.58,
-      "text": "6 hrs 34 mins"
-    },
     {
       "date": "2026-05-31",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-05",
-      "hours": 3.13,
-      "text": "3 hrs 7 mins"
+      "hours": 5.68,
+      "text": "5 hrs 40 mins"
+    },
+    {
+      "date": "2026-06-06",
+      "hours": 2.45,
+      "text": "2 hrs 26 mins"
     }
   ],
   "ai": {
-    "title": "代码爆燃",
-    "quote": "输入全开，输出不止，未来已在指尖燃烧。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFE7"
+    "title": "能量流失",
+    "quote": "算法疲惫，代码像咖啡一样冷却，赛博心脏需重启。",
+    "tarot": "💀 Death",
+    "theme_color": "#00FFF7"
   }
 };

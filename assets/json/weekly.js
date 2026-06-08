@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-07T04:51:15.500Z",
+  "updated_at": "2026-06-08T04:57:32.404Z",
   "stats": {
-    "total_hours": 38.31,
-    "daily_avg": 5.47,
+    "total_hours": 32.82,
+    "daily_avg": 4.69,
     "trend": "falling",
     "max_day": {
       "date": "2026-06-02",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-01",
-      "hours": 8.04,
-      "text": "8 hrs 2 mins"
-    },
     {
       "date": "2026-06-02",
       "hours": 9.5,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-07",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 1.82,
+      "text": "1 hr 49 mins"
+    },
+    {
+      "date": "2026-06-08",
+      "hours": 0.73,
+      "text": "43 mins"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "代码流失如数据泄露，注意补充咖啡能源，别让系统宕机。",
-    "tarot": "🪙 The Hermit",
+    "title": "能量耗散",
+    "quote": "编码如同城市霓虹，辉煌瞬间后暗淡无声。",
+    "tarot": "⚡ The Tower",
     "theme_color": "#00FFF7"
   }
 };

@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-16T05:25:17.513Z",
+  "updated_at": "2026-06-17T05:05:30.677Z",
   "stats": {
-    "total_hours": 36.58,
-    "daily_avg": 5.23,
+    "total_hours": 35.34,
+    "daily_avg": 5.05,
     "trend": "falling",
     "max_day": {
       "date": "2026-06-11",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-10",
-      "hours": 6.69,
-      "text": "6 hrs 41 mins"
-    },
     {
       "date": "2026-06-11",
       "hours": 7.65,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-16",
-      "hours": 1.28,
-      "text": "1 hr 17 mins"
+      "hours": 5.13,
+      "text": "5 hrs 7 mins"
+    },
+    {
+      "date": "2026-06-17",
+      "hours": 1.6,
+      "text": "1 hr 36 mins"
     }
   ],
   "ai": {
-    "title": "能量泄露",
-    "quote": "程序流失如城市霓虹，代码生锈，只有巅峰日闪现光芒。",
-    "tarot": "🦾 The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "能量衰减",
+    "quote": "代码如潮，激情却退，赛博世界也需休眠。",
+    "tarot": "🌑 The Hermit",
+    "theme_color": "#00FFD0"
   }
 };

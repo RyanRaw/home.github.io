@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-17T05:05:30.677Z",
+  "updated_at": "2026-06-18T04:55:30.912Z",
   "stats": {
-    "total_hours": 35.34,
-    "daily_avg": 5.05,
+    "total_hours": 35.14,
+    "daily_avg": 5.02,
     "trend": "falling",
     "max_day": {
-      "date": "2026-06-11",
-      "hours": 7.65,
-      "text": "7 hrs 38 mins"
+      "date": "2026-06-17",
+      "hours": 6.96,
+      "text": "6 hrs 57 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-06-11",
-      "hours": 7.65,
-      "text": "7 hrs 38 mins"
-    },
     {
       "date": "2026-06-12",
       "hours": 6.1,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-17",
-      "hours": 1.6,
-      "text": "1 hr 36 mins"
+      "hours": 6.96,
+      "text": "6 hrs 57 mins"
+    },
+    {
+      "date": "2026-06-18",
+      "hours": 2.09,
+      "text": "2 hrs 5 mins"
     }
   ],
   "ai": {
     "title": "能量衰减",
-    "quote": "代码如潮，激情却退，赛博世界也需休眠。",
-    "tarot": "🌑 The Hermit",
-    "theme_color": "#00FFD0"
+    "quote": "代码如潮，退去时才知疲惫，赛博之夜请勿熬灯。",
+    "tarot": "🪙 The Hermit",
+    "theme_color": "#00FFE7"
   }
 };

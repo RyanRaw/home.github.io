@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-19T05:18:56.766Z",
+  "updated_at": "2026-06-20T04:36:10.123Z",
   "stats": {
-    "total_hours": 32.71,
-    "daily_avg": 4.67,
+    "total_hours": 25.99,
+    "daily_avg": 3.71,
     "trend": "falling",
     "max_day": {
       "date": "2026-06-17",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-13",
-      "hours": 6.72,
-      "text": "6 hrs 42 mins"
-    },
     {
       "date": "2026-06-14",
       "hours": 3.35,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-06-19",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-06-20",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "算力枯竭",
-    "quote": "代码波动如数据流，疲惫是最稳定的版本。",
-    "tarot": "💀 The Tower",
-    "theme_color": "#00fff7"
+    "title": "能量下滑",
+    "quote": "代码流失如夜色，终端等待你的觉醒与重启。",
+    "tarot": "🕳️ The Hermit",
+    "theme_color": "#00ffd0"
   }
 };

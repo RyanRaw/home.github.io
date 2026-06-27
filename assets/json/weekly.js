@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-26T04:35:36.972Z",
+  "updated_at": "2026-06-27T04:11:40.724Z",
   "stats": {
-    "total_hours": 33.1,
-    "daily_avg": 4.73,
+    "total_hours": 43.73,
+    "daily_avg": 6.25,
     "trend": "rising",
     "max_day": {
       "date": "2026-06-22",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-20",
-      "hours": 0,
-      "text": "0 secs"
-    },
     {
       "date": "2026-06-21",
       "hours": 0.41,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-26",
-      "hours": 2.15,
-      "text": "2 hrs 9 mins"
+      "hours": 8.3,
+      "text": "8 hrs 17 mins"
+    },
+    {
+      "date": "2026-06-27",
+      "hours": 4.48,
+      "text": "4 hrs 29 mins"
     }
   ],
   "ai": {
-    "title": "数据涌流",
-    "quote": "代码如浪，今周未崩溃，可能是灵魂还未被黑客侵蚀。",
-    "tarot": "💾 The High Priestess",
-    "theme_color": "#00ffe6"
+    "title": "能量激荡",
+    "quote": "代码像病毒，越写越上头，小心别被自己的逻辑反噬。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00ffe7"
   }
 };

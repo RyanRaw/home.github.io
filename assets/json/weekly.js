@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-06-27T04:11:40.724Z",
+  "updated_at": "2026-06-28T04:45:21.482Z",
   "stats": {
-    "total_hours": 43.73,
-    "daily_avg": 6.25,
-    "trend": "rising",
+    "total_hours": 51.27,
+    "daily_avg": 7.32,
+    "trend": "falling",
     "max_day": {
       "date": "2026-06-22",
       "hours": 8.95,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-21",
-      "hours": 0.41,
-      "text": "24 mins"
-    },
     {
       "date": "2026-06-22",
       "hours": 8.95,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-06-27",
-      "hours": 4.48,
-      "text": "4 hrs 29 mins"
+      "hours": 8.44,
+      "text": "8 hrs 26 mins"
+    },
+    {
+      "date": "2026-06-28",
+      "hours": 3.99,
+      "text": "3 hrs 59 mins"
     }
   ],
   "ai": {
-    "title": "能量激荡",
-    "quote": "代码像病毒，越写越上头，小心别被自己的逻辑反噬。",
-    "tarot": "⚡ The Magician",
-    "theme_color": "#00ffe7"
+    "title": "能量耗散",
+    "quote": "代码像夜雨，总是越写越稀薄，防火墙都懒得拦你。",
+    "tarot": "💤 The Hermit",
+    "theme_color": "#00FFF7"
   }
 };

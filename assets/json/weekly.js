@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-02T04:16:01.452Z",
+  "updated_at": "2026-07-03T04:02:10.580Z",
   "stats": {
-    "total_hours": 61.99,
-    "daily_avg": 8.86,
-    "trend": "rising",
+    "total_hours": 63.12,
+    "daily_avg": 9.02,
+    "trend": "falling",
     "max_day": {
       "date": "2026-06-29",
       "hours": 12.63,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-06-26",
-      "hours": 8.3,
-      "text": "8 hrs 17 mins"
-    },
     {
       "date": "2026-06-27",
       "hours": 8.44,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-02",
-      "hours": 1.92,
-      "text": "1 hr 55 mins"
+      "hours": 9.1,
+      "text": "9 hrs 5 mins"
+    },
+    {
+      "date": "2026-07-03",
+      "hours": 2.25,
+      "text": "2 hrs 15 mins"
     }
   ],
   "ai": {
-    "title": "系统过载",
-    "quote": "代码狂飙，bug自愈。过载才是赛博世界的常态。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFE7"
+    "title": "能量衰减",
+    "quote": "代码如潮水退去，唯有冷光闪烁于指尖。",
+    "tarot": "🕳️ The Hermit",
+    "theme_color": "#00fff7"
   }
 };

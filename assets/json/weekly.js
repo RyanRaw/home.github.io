@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-08T03:37:03.577Z",
+  "updated_at": "2026-07-09T04:07:22.279Z",
   "stats": {
-    "total_hours": 27.95,
-    "daily_avg": 3.99,
-    "trend": "falling",
+    "total_hours": 21.68,
+    "daily_avg": 3.1,
+    "trend": "rising",
     "max_day": {
-      "date": "2026-07-02",
-      "hours": 9.1,
-      "text": "9 hrs 5 mins"
+      "date": "2026-07-03",
+      "hours": 6.73,
+      "text": "6 hrs 43 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-07-02",
-      "hours": 9.1,
-      "text": "9 hrs 5 mins"
-    },
     {
       "date": "2026-07-03",
       "hours": 6.73,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-08",
-      "hours": 0.26,
-      "text": "15 mins"
+      "hours": 2.94,
+      "text": "2 hrs 56 mins"
+    },
+    {
+      "date": "2026-07-09",
+      "hours": 0.15,
+      "text": "9 mins"
     }
   ],
   "ai": {
-    "title": "能量枯竭",
-    "quote": "代码在消散，灵魂渐冷，未来只剩光与影的交错。",
-    "tarot": "🌒 The Hermit",
-    "theme_color": "#0ff9e2"
+    "title": "数据暴走",
+    "quote": "代码像病毒蔓延，效率和BUG齐飞，别让深夜吞噬你的灵魂。",
+    "tarot": "⚡ The Tower",
+    "theme_color": "#00FFF7"
   }
 };

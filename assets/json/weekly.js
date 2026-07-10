@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-09T04:07:22.279Z",
+  "updated_at": "2026-07-10T04:06:43.489Z",
   "stats": {
-    "total_hours": 21.68,
-    "daily_avg": 3.1,
+    "total_hours": 15.73,
+    "daily_avg": 2.25,
     "trend": "rising",
     "max_day": {
-      "date": "2026-07-03",
-      "hours": 6.73,
-      "text": "6 hrs 43 mins"
+      "date": "2026-07-07",
+      "hours": 6.06,
+      "text": "6 hrs 3 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-07-03",
-      "hours": 6.73,
-      "text": "6 hrs 43 mins"
-    },
     {
       "date": "2026-07-04",
       "hours": 0,
@@ -38,19 +33,24 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-08",
-      "hours": 2.94,
-      "text": "2 hrs 56 mins"
+      "hours": 3,
+      "text": "3 hrs"
     },
     {
       "date": "2026-07-09",
-      "hours": 0.15,
-      "text": "9 mins"
+      "hours": 0.67,
+      "text": "40 mins"
+    },
+    {
+      "date": "2026-07-10",
+      "hours": 0.2,
+      "text": "11 mins"
     }
   ],
   "ai": {
-    "title": "数据暴走",
-    "quote": "代码像病毒蔓延，效率和BUG齐飞，别让深夜吞噬你的灵魂。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFF7"
+    "title": "代码觉醒",
+    "quote": "数据狂飙，bug自愈，赛博空间的你正悄然觉醒。",
+    "tarot": "⚡ The Magician",
+    "theme_color": "#00ffe7"
   }
 };

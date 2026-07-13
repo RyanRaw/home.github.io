@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-12T03:48:02.966Z",
+  "updated_at": "2026-07-13T03:49:58.007Z",
   "stats": {
-    "total_hours": 15.79,
-    "daily_avg": 2.26,
+    "total_hours": 11.68,
+    "daily_avg": 1.67,
     "trend": "falling",
     "max_day": {
       "date": "2026-07-07",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-07-06",
-      "hours": 5.8,
-      "text": "5 hrs 48 mins"
-    },
     {
       "date": "2026-07-07",
       "hours": 6.06,
@@ -33,8 +28,8 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-10",
-      "hours": 0.26,
-      "text": "15 mins"
+      "hours": 0.27,
+      "text": "16 mins"
     },
     {
       "date": "2026-07-11",
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-12",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 0.32,
+      "text": "18 mins"
+    },
+    {
+      "date": "2026-07-13",
+      "hours": 1.36,
+      "text": "1 hr 21 mins"
     }
   ],
   "ai": {
-    "title": "能量下滑",
-    "quote": "代码缓慢流淌，未来在霓虹中迷失，休息亦是进化。",
+    "title": "能量衰减",
+    "quote": "代码如夜色渐浓，别让懒惰入侵你的主板。",
     "tarot": "💤 The Hermit",
-    "theme_color": "#00FFE7"
+    "theme_color": "#15F3FF"
   }
 };

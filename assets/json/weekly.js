@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-20T03:56:17.180Z",
+  "updated_at": "2026-07-21T03:35:52.820Z",
   "stats": {
-    "total_hours": 32.75,
-    "daily_avg": 4.68,
+    "total_hours": 34.27,
+    "daily_avg": 4.9,
     "trend": "falling",
     "max_day": {
-      "date": "2026-07-15",
-      "hours": 8.71,
-      "text": "8 hrs 42 mins"
+      "date": "2026-07-20",
+      "hours": 9.04,
+      "text": "9 hrs 2 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-07-14",
-      "hours": 6.78,
-      "text": "6 hrs 46 mins"
-    },
     {
       "date": "2026-07-15",
       "hours": 8.71,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-20",
-      "hours": 2.66,
-      "text": "2 hrs 39 mins"
+      "hours": 9.04,
+      "text": "9 hrs 2 mins"
+    },
+    {
+      "date": "2026-07-21",
+      "hours": 1.92,
+      "text": "1 hr 54 mins"
     }
   ],
   "ai": {
-    "title": "能量衰减",
-    "quote": "代码如幻影，疲惫是底层协议，巅峰只在短暂重启。",
-    "tarot": "🕳️ The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "能量耗散",
+    "quote": "代码像咖啡，越喝越困。别让 bug 读懂你的疲惫。",
+    "tarot": "🌙 The Hermit",
+    "theme_color": "#00ffe7"
   }
 };

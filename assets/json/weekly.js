@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-21T03:35:52.820Z",
+  "updated_at": "2026-07-22T03:35:49.843Z",
   "stats": {
-    "total_hours": 34.27,
-    "daily_avg": 4.9,
-    "trend": "falling",
+    "total_hours": 30.64,
+    "daily_avg": 4.38,
+    "trend": "rising",
     "max_day": {
       "date": "2026-07-20",
       "hours": 9.04,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-07-15",
-      "hours": 8.71,
-      "text": "8 hrs 42 mins"
-    },
     {
       "date": "2026-07-16",
       "hours": 5.9,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-21",
-      "hours": 1.92,
-      "text": "1 hr 54 mins"
+      "hours": 5.21,
+      "text": "5 hrs 12 mins"
+    },
+    {
+      "date": "2026-07-22",
+      "hours": 1.79,
+      "text": "1 hr 47 mins"
     }
   ],
   "ai": {
-    "title": "能量耗散",
-    "quote": "代码像咖啡，越喝越困。别让 bug 读懂你的疲惫。",
-    "tarot": "🌙 The Hermit",
-    "theme_color": "#00ffe7"
+    "title": "能量冲刺",
+    "quote": "代码如光，爆肝不息，命运在回车间跳动。",
+    "tarot": "⚡ The Tower",
+    "theme_color": "#00fff7"
   }
 };

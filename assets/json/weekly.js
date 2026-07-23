@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-22T03:35:49.843Z",
+  "updated_at": "2026-07-23T03:37:33.582Z",
   "stats": {
-    "total_hours": 30.64,
-    "daily_avg": 4.38,
+    "total_hours": 33.28,
+    "daily_avg": 4.75,
     "trend": "rising",
     "max_day": {
       "date": "2026-07-20",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-07-16",
-      "hours": 5.9,
-      "text": "5 hrs 53 mins"
-    },
     {
       "date": "2026-07-17",
       "hours": 6.74,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-22",
-      "hours": 1.79,
-      "text": "1 hr 47 mins"
+      "hours": 8.34,
+      "text": "8 hrs 20 mins"
+    },
+    {
+      "date": "2026-07-23",
+      "hours": 1.99,
+      "text": "1 hr 59 mins"
     }
   ],
   "ai": {
-    "title": "能量冲刺",
-    "quote": "代码如光，爆肝不息，命运在回车间跳动。",
+    "title": "代码暴走",
+    "quote": "速度超限，BUG如影随形，升级需谨慎。",
     "tarot": "⚡ The Tower",
-    "theme_color": "#00fff7"
+    "theme_color": "#00FFE7"
   }
 };

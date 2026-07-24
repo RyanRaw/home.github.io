@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-23T03:37:33.582Z",
+  "updated_at": "2026-07-24T03:35:19.741Z",
   "stats": {
-    "total_hours": 33.28,
-    "daily_avg": 4.75,
+    "total_hours": 35.91,
+    "daily_avg": 5.13,
     "trend": "rising",
     "max_day": {
-      "date": "2026-07-20",
-      "hours": 9.04,
-      "text": "9 hrs 2 mins"
+      "date": "2026-07-23",
+      "hours": 10.44,
+      "text": "10 hrs 26 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-07-17",
-      "hours": 6.74,
-      "text": "6 hrs 44 mins"
-    },
     {
       "date": "2026-07-18",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-23",
-      "hours": 1.99,
-      "text": "1 hr 59 mins"
+      "hours": 10.44,
+      "text": "10 hrs 26 mins"
+    },
+    {
+      "date": "2026-07-24",
+      "hours": 0.92,
+      "text": "55 mins"
     }
   ],
   "ai": {
-    "title": "代码暴走",
-    "quote": "速度超限，BUG如影随形，升级需谨慎。",
+    "title": "数据冲击",
+    "quote": "代码如潮，睡眠稀薄，未来只剩光标闪烁。",
     "tarot": "⚡ The Tower",
-    "theme_color": "#00FFE7"
+    "theme_color": "#0ff1ce"
   }
 };

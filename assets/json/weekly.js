@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-26T03:48:03.961Z",
+  "updated_at": "2026-07-27T03:56:25.680Z",
   "stats": {
-    "total_hours": 50.06,
-    "daily_avg": 7.15,
+    "total_hours": 42.95,
+    "daily_avg": 6.14,
     "trend": "falling",
     "max_day": {
       "date": "2026-07-23",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-07-20",
-      "hours": 9.04,
-      "text": "9 hrs 2 mins"
-    },
     {
       "date": "2026-07-21",
       "hours": 5.21,
@@ -45,12 +40,17 @@ window.WAKATIME_WEEKLY = {
       "date": "2026-07-26",
       "hours": 0,
       "text": "0 secs"
+    },
+    {
+      "date": "2026-07-27",
+      "hours": 1.93,
+      "text": "1 hr 55 mins"
     }
   ],
   "ai": {
-    "title": "能量滑坡",
-    "quote": "代码如影随形，效率却在逐渐软化，别让硬盘比你更有活力。",
-    "tarot": "💾 The Hermit",
-    "theme_color": "#00FFF7"
+    "title": "能量衰减",
+    "quote": "代码如光，闪耀过后，归于寂静。保持冷静，别让bug追上你的影",
+    "tarot": "🔋 The Hermit",
+    "theme_color": "#0ff1ce"
   }
 };

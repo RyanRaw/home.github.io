@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-08-10T02:27:43.574Z",
+  "updated_at": "2026-08-11T02:20:57.534Z",
   "stats": {
-    "total_hours": 31.86,
-    "daily_avg": 4.55,
+    "total_hours": 22.04,
+    "daily_avg": 3.15,
     "trend": "falling",
     "max_day": {
-      "date": "2026-08-04",
-      "hours": 11.19,
-      "text": "11 hrs 11 mins"
+      "date": "2026-08-05",
+      "hours": 9.47,
+      "text": "9 hrs 28 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-08-04",
-      "hours": 11.19,
-      "text": "11 hrs 11 mins"
-    },
     {
       "date": "2026-08-05",
       "hours": 9.47,
@@ -28,8 +23,8 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-08-07",
-      "hours": 3.17,
-      "text": "3 hrs 10 mins"
+      "hours": 3.41,
+      "text": "3 hrs 24 mins"
     },
     {
       "date": "2026-08-08",
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-08-10",
-      "hours": 0,
-      "text": "0 secs"
+      "hours": 0.92,
+      "text": "55 mins"
+    },
+    {
+      "date": "2026-08-11",
+      "hours": 0.21,
+      "text": "12 mins"
     }
   ],
   "ai": {
-    "title": "火力全开",
-    "quote": "键盘都在喊累，但你的 Commit 还在飞。",
-    "tarot": "⚡ The Magician (魔术师)",
-    "theme_color": "#f5af19"
+    "title": "渐入佳境",
+    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
+    "tarot": "🌱 The Empress (皇后)",
+    "theme_color": "#80ed99"
   }
 };

@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-08-29T06:57:53.530Z",
+  "updated_at": "2026-08-30T05:14:34.702Z",
   "stats": {
-    "total_hours": 52.25,
-    "daily_avg": 7.46,
+    "total_hours": 56.39,
+    "daily_avg": 8.06,
     "trend": "falling",
     "max_day": {
       "date": "2026-08-24",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-08-23",
-      "hours": 1.64,
-      "text": "1 hr 38 mins"
-    },
     {
       "date": "2026-08-24",
       "hours": 11.93,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-08-29",
-      "hours": 3.06,
-      "text": "3 hrs 3 mins"
+      "hours": 8.84,
+      "text": "8 hrs 50 mins"
+    },
+    {
+      "date": "2026-08-30",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "火力全开",
-    "quote": "键盘都在喊累，但你的 Commit 还在飞。",
-    "tarot": "⚡ The Magician (魔术师)",
-    "theme_color": "#f5af19"
+    "title": "代码永动机",
+    "quote": "这周的状态像刚喝了三杯浓缩，曲线比纳斯达克还漂亮。",
+    "tarot": "🔥 The Chariot (战车)",
+    "theme_color": "#8e2de2"
   }
 };
